@@ -49,7 +49,7 @@ public class PomControlPage {
     WebElement addChild;
     @FindBy(xpath = "//button//span[contains(text(),' Container ')]")
     WebElement container;
-    @FindBy(xpath = "(//button//span[@class='mat-mdc-menu-item-text'])[16]")
+    @FindBy(xpath = "(//span[contains(text(),'Container ')])[2]")
     WebElement addContainer;
     @FindBy(xpath = "//span[contains(text(),' Container-')]")
     WebElement containerText;
